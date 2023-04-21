@@ -1,0 +1,31 @@
+.team {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.team li {
+	flex: 1 0 300px;
+	margin: 10px;
+	text-align: center;
+}
+
+.team li img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.team li h3 {
+	margin-top: 20px;
+	font-size: 24px;
+}
+
+.team li p {
+	margin-top: 10px;
+	font-size: 18px;
+}
+
